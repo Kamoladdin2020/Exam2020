@@ -10,8 +10,9 @@ internal class ExamTest {
         assertEquals(42, example("input/example.txt"))
     }
 
+
     @Test
-    fun testMyExamTask() {
-        myExamTask()
+    fun atmPressure() {
+        assertEquals("01.01:778, 09.04:777", atmPressure("input/pressure.txt", "x < next"))
     }
 }
